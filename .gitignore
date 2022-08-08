@@ -347,4 +347,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Windows data file
+*.xlsx
+*.svg
+
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,windows,python,macos,venv
