@@ -68,13 +68,13 @@ df.to_excel("./단어빈도수.xlsx")
 # import numpy as np
 # from PIL import Image
 # from wordcloud import ImageColorGenerator
-image_array = np.array(Image.open("../logo.png"))
+image_array = np.array(Image.open("./maple_logo.png"))
 image_color = ImageColorGenerator(image_array)
 
 
 # 단어구름 만들기
 # from wordcloud import WordCloud
-wc = WordCloud(mask=image_array, background_color="white", font_path="../NanumMyeongjo.ttf")\
+wc = WordCloud(mask=image_array, background_color="white", font_path="./NanumMyeongjo.ttf")\
     .generate_from_frequencies(count_result)\
     .recolor(color_func=image_color)
 
