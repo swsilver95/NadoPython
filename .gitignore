@@ -351,5 +351,7 @@ $RECYCLE.BIN/
 *.xlsx
 *.svg
 *.html
+mnist/
+*.pkl
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,windows,python,macos,venv
