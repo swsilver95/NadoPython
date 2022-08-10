@@ -25,3 +25,7 @@ $ pip install -r requirements.txt
 - 데이터의 제공 없이 학습시키는 것
   -  알파고, 알파스타 등
 
+## 3. GUI 개발
+1. Qt Designer 설치
+  - https://build-system.fman.io/qt-designer-download
+  - 

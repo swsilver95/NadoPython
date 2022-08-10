@@ -353,5 +353,6 @@ $RECYCLE.BIN/
 *.html
 mnist/
 *.pkl
+*.exe
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,windows,python,macos,venv
