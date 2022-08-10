@@ -2,7 +2,7 @@
 
 - requirements.txt 설치
 ```commandline
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 1. Text Mining
@@ -28,4 +28,12 @@ $ pip install -r requirements.txt
 ## 3. GUI 개발
 1. Qt Designer 설치
   - https://build-system.fman.io/qt-designer-download
-  - 
+
+## 4. 웹개발 with streamlit
+  - `$ streamlit run example.py`
+  - `.py`파일 수정 후 웹페이지에서 always rerun 클릭
+
+### 4.1. 배포
+- 배포는 https://share.streamlit.io/ 을 통해서 진행
+- 깃헙 레포지토리와 연동하여 사용
+- https://swsilver95-nadopython-yogiyo-app-vm3tvo.streamlitapp.com/
